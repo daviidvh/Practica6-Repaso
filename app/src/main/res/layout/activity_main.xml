@@ -21,10 +21,23 @@
         android:layout_width="207dp"
         android:layout_height="51dp"
         android:layout_marginTop="100dp"
+        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toEndOf="@+id/buttonComenzar"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/batman"
+        android:layout_width="312dp"
+        android:layout_height="334dp"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:srcCompat="@drawable/batman" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
